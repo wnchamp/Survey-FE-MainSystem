@@ -8,12 +8,14 @@ import { TelephoneComponent } from './telephone/telephone.component';
 import { SigninMainComponent } from './signin-main/signin-main.component';
 
 import { AppRoutingModule } from './/app-routing.module';
+import { WellcomeComponent } from './wellcome/wellcome.component';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     TelephoneComponent,
-    SigninMainComponent
+    SigninMainComponent,
+    WellcomeComponent
   ],
   imports: [
     BrowserModule,

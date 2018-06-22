@@ -29,3 +29,29 @@ input.form-control-lgs:focus
   border: 3px solid rgb(117, 117, 117);
 
 }
+
+/* new */
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  border: 3px solid #C7C7C7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #777;
+}
+.b{
+  text-align: center;
+  font-size: 50px;
+
+  margin-bottom: 10px;
+}
+.l{
+  display: inline-block;
+  margin-bottom: .1rem;
+}

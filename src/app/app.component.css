@@ -6,10 +6,13 @@ body{
   cursor: pointer;
   margin-left: 20px;
   height: 30px;
-  
+
 
 }
 .btn-header:hover  {
+  border-bottom: 3px solid #C7C7C7;
+}
+.btn-header:active  {
   border-bottom: 3px solid #C7C7C7;
 }
 
